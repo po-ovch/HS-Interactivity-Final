@@ -78,7 +78,7 @@ const fillData = () => {
     dateSelector.value = `${today.getUTCFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
 
     renderFlightsList(flightsData);
-    loadImage(worlds[0].image_link);
+    loadImage(worlds[0]);
 }
 
 const createOption = (selector, value) => {

@@ -1,12 +1,11 @@
 #locations-block {
-    height: 100vh;
+    height: 112vh;
     width: 100%;
-    background-color: whitesmoke;
 }
 
 #carousel-block {
-    width: 700px;
-    height: 500px;
+    width: 60%;
+    height: 70vh;
     margin: 50px auto;
     position: relative;
 
@@ -41,4 +40,9 @@
 #location-photo {
     border-radius: 20px;
     border: 1px solid black;
+}
+
+#location-name {
+    text-align: center;
+    font-size: 30px;
 }

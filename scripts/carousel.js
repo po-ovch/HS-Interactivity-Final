@@ -3,22 +3,23 @@ import { worlds } from './worlds.js';
 const carousel = document.getElementById("carousel-block");
 const canvas = document.getElementById("location-photo");
 const context = canvas.getContext("2d");
+const header = document.getElementById("location-name");
 
 canvas.width = carousel.clientWidth;
 canvas.height = carousel.clientHeight;
-let x = 20;
-let y = 150;
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export const loadImage = (imageUrl) => {
+export const loadImage = (world) => {
     const img = new Image();
     img.onload = () => {
         context.drawImage(img, 0, 0, canvas.width, canvas.height);
     };
-    img.src = imageUrl;
+    img.src = world.image_link;
+
+    header.innerText = world.name;
 }
 
 let currentSlideNum = 0;
@@ -49,7 +50,7 @@ function unblockButtons() {
 
 async function changeSlides() {
   unblockButtons();
-  loadImage(worlds[currentSlideNum].image_link);
+  loadImage(worlds[currentSlideNum]);
   blockButton();
 }
 
