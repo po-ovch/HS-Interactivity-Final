@@ -16,13 +16,13 @@ h3 {
     margin-bottom: 4vh;
 }
 
-#block-header {
+.block-header {
     padding: 7vh 5% 5vh 5%;
     width: 100%;
 
     background-color: #50b8e7;
 }
 
-#block-header-text {
+.block-header-text {
     text-align: left;
 }
