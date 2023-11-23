@@ -1,0 +1,105 @@
+{
+    "fantasy_worlds": [
+      {
+        "name": "Middle-earth",
+        "author": "J.R.R. Tolkien",
+        "image_link": "https://www.speakeasy-news.com/wp-content/uploads/2022/08/SN_LOTR01_home-1200x774.jpg"
+      },
+      {
+        "name": "Westeros and Essos",
+        "author": "George R.R. Martin",
+        "image_link": "https://static.posters.cz/image/750/posters/juego-de-tronos-westeros-and-essos-antique-map-i48843.jpg"
+      },
+      {
+        "name": "Narnia",
+        "author": "C.S. Lewis",
+        "image_link": "https://imagedelivery.net/9sCnq8t6WEGNay0RAQNdvQ/UUID-cl9katlpn2716psojzgvlc3l9/public"
+      },
+      {
+        "name": "Hogwarts",
+        "author": "J.K. Rowling",
+        "image_link": "https://cdn.sortiraparis.com/images/80/66131/855789-harry-potter-hogwarts-legacy-se-devoile-dans-sa-bande-annonce-de-lancement.jpg"
+      },
+      {
+        "name": "Discworld",
+        "author": "Terry Pratchett",
+        "image_link": "https://i.imgur.com/c2pV1sh.jpg"
+      },
+      {
+        "name": "Earthsea",
+        "author": "Ursula K. Le Guin",
+        "image_link": "https://i.imgur.com/DVt6x7S.jpg"
+      },
+      {
+        "name": "The Shire",
+        "author": "J.R.R. Tolkien",
+        "image_link": "https://i.imgur.com/rF2bqTz.jpg"
+      },
+      {
+        "name": "Neverland",
+        "author": "J.M. Barrie",
+        "image_link": "https://i.imgur.com/9St5Dvj.jpg"
+      },
+      {
+        "name": "Wonderland",
+        "author": "Lewis Carroll",
+        "image_link": "https://i.imgur.com/Kc8ILkt.jpg"
+      },
+      {
+        "name": "Oz",
+        "author": "L. Frank Baum",
+        "image_link": "https://i.imgur.com/nrWVHt7.jpg"
+      },
+      {
+        "name": "Pern",
+        "author": "Anne McCaffrey",
+        "image_link": "https://i.imgur.com/NIT0kaA.jpg"
+      },
+      {
+        "name": "Mistborn",
+        "author": "Brandon Sanderson",
+        "image_link": "https://i.imgur.com/06qH7bc.jpg"
+      },
+      {
+        "name": "The Elder Scrolls Universe",
+        "author": "Various",
+        "image_link": "https://i.imgur.com/pWb1ZFV.jpg"
+      },
+      {
+        "name": "The Witcher World",
+        "author": "Andrzej Sapkowski",
+        "image_link": "https://i.imgur.com/63tJvPR.jpg"
+      },
+      {
+        "name": "Malazan World",
+        "author": "Steven Erikson",
+        "image_link": "https://i.imgur.com/7khbGEd.jpg"
+      },
+      {
+        "name": "Westeros and Essos",
+        "author": "George R.R. Martin",
+        "image_link": "https://i.imgur.com/JiHNOuo.jpg"
+      },
+      {
+        "name": "Arrakis (Dune)",
+        "author": "Frank Herbert",
+        "image_link": "https://i.imgur.com/2MbZbfT.jpg"
+      },
+      {
+        "name": "Winnie-the-Pooh",
+        "author": "A.A. Milne",
+        "image_link": "https://i.imgur.com/YSySSlz.jpg"
+      },
+      {
+        "name": "Camelot",
+        "author": "Arthurian Legend",
+        "image_link": "https://i.imgur.com/dGQzPHv.jpg"
+      },
+      {
+        "name": "Fantasia (The NeverEnding Story)",
+        "author": "Michael Ende",
+        "image_link": "https://i.imgur.com/FDImkqZ.jpg"
+      }
+    ]
+  }
+  

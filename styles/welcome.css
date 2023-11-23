@@ -1,0 +1,94 @@
+#welcome-block {
+    width: 100%;
+    padding-top: 10vh;
+    background-color: beige;
+    background: linear-gradient(var(--myColor1), var(--myColor2));
+    animation: 7s ease 1s infinite sky;
+}
+
+#plane-block {
+    width: 100%;
+    height: 50vh;
+}
+
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: #d4f1f9;
+    inherits: false;
+  }
+  
+  @property --myColor2 {
+    syntax: '<color>';
+    initial-value: #de718e;
+    inherits: false;
+  }
+
+  @keyframes sky {
+    0% {
+        --myColor1: #d4f1f9;
+        --myColor2: #de718e;
+    }
+    25% {
+        --myColor1: #E2F6CA;
+        --myColor2: #50B8E7;
+    }
+    50% {
+        --myColor1:  #568099;
+        --myColor2:  #568099;
+    }
+    75% {
+    
+    }
+    100% {
+        --myColor1: #d4f1f9;
+        --myColor2: #de718e;
+    }
+}
+
+.plane {
+    position: absolute;
+    z-index: 1;
+    top: calc(40% - (5rem/2));
+    left: calc((95% - 20rem) / 2);
+    width: 20rem;
+    height: 10rem;
+    animation: 2s ease-in-out takeOff, 5s ease-in-out infinite alternate flight 2s;
+}
+
+@keyframes takeOff {
+    0% {
+      transform: translate(-220%, 110%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+@keyframes flight {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(0, 10%);
+    }
+    75% {
+      transform: translate(0, -10%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+}
+
+#find-flight-button {
+  display: block;
+  margin: 5rem auto;
+  text-align: center;
+  padding: 25px 60px;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+#welcome-flights-space {
+    width: 100%;
+    height: 50vh;
+}

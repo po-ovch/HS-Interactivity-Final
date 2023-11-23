@@ -1,0 +1,44 @@
+#locations-block {
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+#carousel-block {
+    width: 700px;
+    height: 500px;
+    margin: 50px auto;
+    position: relative;
+
+    border-radius: 20px;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 45%;
+  
+    z-index: 1;
+  
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    
+    color: black;
+} 
+  
+.carousel-button.left {
+    left: -50px;
+}
+  
+.carousel-button.right {
+    right: -50px;
+}
+  
+.blocked {
+    display: none;
+}
+
+#location-photo {
+    border-radius: 20px;
+    border: 1px solid black;
+}
